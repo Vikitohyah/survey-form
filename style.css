@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(img/group-happy-business-people-meeting.jpg);
+    background-color: rgb(63, 63, 170);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+header{
+    text-align: center;
+}
+
+
+.center-box{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin: 30px 300px 30px 300px;
+    background-color: rgba(14, 14, 65, 0.9);
+
+}
+.submit{
+    background-color: green;
+    text-align: center;
+    width: 600px;
+    height: 35px;
+
+}
+
+input, select, textarea, .submit{
+    margin-bottom: 13px;
+}
+
+.info{
+    width: 100%;
+    height: 27px
+}
+select{
+    width: 100%;
+    height: 27px;
+}
+span{
+    font-size: smaller;
+    opacity: 0.7;
+}
+
+textarea{
+    width: 100%;
+}
+
+label{
+    margin-top: 10px;
+}
+
+input{
+    margin-right: 5px;
+}
+@media (max-width:600px){
+    body{
+        width: 100%;
+    }
+}
